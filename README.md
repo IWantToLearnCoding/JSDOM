@@ -2,6 +2,7 @@
 
 Find, traverse, create and manipulate html DOM using only vanilla JS.
 
+***
 # ELEMENT SELECTORS  
 
 1. getElementById
@@ -10,6 +11,7 @@ Find, traverse, create and manipulate html DOM using only vanilla JS.
 4. querySelector
 5. querySelectorAll
 
+***
 # TRAVERSING THE DOM
 
 1. PARENT
@@ -54,13 +56,13 @@ Find, traverse, create and manipulate html DOM using only vanilla JS.
 
     b. parentOfBoth.insertBefore(elementToBeInserted, elementToBeInsertedBefore)
 
-Important point -
+### Important points -
 
-1. What is a textNode and how every space in html document creates a text node under respective parentNode?
-3. Difference between childNodes and children?
-2. Difference between firstChild and firstElementChild?
+> 1. What is a textNode and how every space in html document creates a text node under respective parentNode?
+> 2. Difference between childNodes and children?
+> 3. Difference between firstChild and firstElementChild?
 
-
+***
 # EVENTS
 
 1. Adding an eventListener/handler
@@ -75,3 +77,5 @@ Important point -
     element.addEventListener('event type', eventHandler);
 
 ```
+
+### Important points -
