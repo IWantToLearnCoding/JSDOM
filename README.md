@@ -42,8 +42,20 @@ Find, traverse, create and manipulate html DOM using only vanilla JS.
 
     d. previousElementSibling
 
+4. CREATEELMENT
+
+    a. document.createElement('div')
+
+    b. document.createTextNode('text of the node')
+
+5. INSERTELEMENT
+
+    a. element.appendChild(childToBeAppended)
+
+    b. parentOfBoth.insertBefore(elementToBeInserted, elementToBeInsertedBefore)
+
 Important point -
 
 1. What is a textNode and how every space in html document creates a text node under respective parentNode?
-3. Difference between childNodes and children
-2. Difference between firstChild and firstElementChild
+3. Difference between childNodes and children?
+2. Difference between firstChild and firstElementChild?

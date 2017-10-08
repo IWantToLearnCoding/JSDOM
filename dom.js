@@ -111,3 +111,27 @@ console.log(nextSibling.nextElementSibling);
 var prevSibling = document.querySelector('#items');
 console.log(prevSibling.previousSibling);
 console.log(prevSibling.previousElementSibling);
+
+// CREATEELEMENT
+
+// div node
+var newDiv = document.createElement('div');
+newDiv.class = 'new-div';
+console.log(newDiv);
+newDiv.id = 'new-div-id';
+// add attribute
+newDiv.setAttribute('myAttr', 'myValue');
+
+// create text node
+var textNode = document.createTextNode('I created this div');
+console.log(textNode);
+// add textNode to divNode
+newDiv.appendChild(textNode);
+console.log(newDiv);
+
+
+// insert node
+var container = document.querySelector('.container');
+var secondHeading = document.getElementsByTagName('h1')[1];
+
+container.insertBefore(newDiv, secondHeading);
