@@ -81,5 +81,4 @@ Find, traverse, create and manipulate html DOM using only vanilla JS.
 ### Important points -
 
 >1. What is the difference between event.target and event.currentTarget?
-
->[Read this](https://stackoverflow.com/questions/10086427/what-is-the-exact-difference-between-currenttarget-property-and-target-property)
+[Read this](https://stackoverflow.com/questions/10086427/what-is-the-exact-difference-between-currenttarget-property-and-target-property)
