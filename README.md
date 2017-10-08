@@ -59,3 +59,19 @@ Important point -
 1. What is a textNode and how every space in html document creates a text node under respective parentNode?
 3. Difference between childNodes and children?
 2. Difference between firstChild and firstElementChild?
+
+
+# EVENTS
+
+1. Adding an eventListener/handler
+
+    find the element and attach the handler
+
+```
+    eventHandler = function(e) {
+        // something;
+    }
+    var element = document.querySelector('css selector');
+    element.addEventListener('event type', eventHandler);
+
+```

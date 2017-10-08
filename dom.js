@@ -135,3 +135,15 @@ var container = document.querySelector('.container');
 var secondHeading = document.getElementsByTagName('h1')[1];
 
 container.insertBefore(newDiv, secondHeading);
+
+
+// VIDEO 3 - https://www.youtube.com/watch?v=wK2cBMcDTss
+
+// Adding events to DOM elements
+
+var buttonClicked = function (e) {
+    console.log(e);
+    console.log(e.target); // gives the element clicked
+}
+var button = document.getElementById('btn').addEventListener('click', buttonClicked);
+console.log(button); // addEventListener does not return anything. to remove the listerner use removeEventListener.
