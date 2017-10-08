@@ -144,6 +144,62 @@ container.insertBefore(newDiv, secondHeading);
 var buttonClicked = function (e) {
     console.log(e);
     console.log(e.target); // gives the element clicked
+    console.log(e.type);
+    console.log(e.clientX); // from browser window
+    console.log(e.clientY);
+    console.log(e.offsetX); // from the element itself
+    console.log(e.offsetY);
+
+    console.log(e.altKey); // will be true if alt was held down when mouse clicked
+    console.log(e.ctrlKey);
+    console.log(e.shiftKey);
 }
-var button = document.getElementById('btn').addEventListener('click', buttonClicked);
+var button = document.getElementById('btn');
+button.addEventListener('click', buttonClicked);
 console.log(button); // addEventListener does not return anything. to remove the listerner use removeEventListener.
+
+
+// DIFFERENT EVENTS
+var innerbox = document.getElementById('inner-box');
+var runEvent1 = function (e) {
+    console.log('Event type: ', e.type);
+}
+
+var runEvent2 = function (e) {
+    document.body.style.backgroundColor = "rgb("+e.offsetY+", "+e.offsetX+", 50)";
+    innerbox.style.backgroundColor = "rgb("+e.offsetX+", "+e.offsetY+", 50)";
+};
+
+button.addEventListener('click', function () {});
+
+// button.addEventListener('dblclick', runEvent1);
+// button.addEventListener('mousedown', runEvent1);
+// button.addEventListener('mouseup', runEvent1);
+//
+// var box = document.getElementById('box');
+// box.addEventListener('mouseenter', runEvent1);
+// box.addEventListener('mouseleave', runEvent1);
+//
+// box.addEventListener('mouseover', runEvent1);
+// box.addEventListener('mouseout', runEvent1);
+
+box.addEventListener('mousemove', runEvent2);
+
+var inputEventHandler = function (e) {
+    console.log(e.target.value);
+    document.getElementById('output').innerHTML = '<h3>'+e.target.value+'</h3>';
+}
+
+var input = document.querySelector('input[type="text"]');
+input.style.marginTop = '100px';
+
+input.addEventListener('keyup', inputEventHandler);
+
+
+// focus and blur
+
+// cut and paste
+
+// input - anything we do on input element triggers input event.
+
+// submit event on the form

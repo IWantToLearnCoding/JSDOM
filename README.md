@@ -75,10 +75,17 @@ Find, traverse, create and manipulate html DOM using only vanilla JS.
     }
     var element = document.querySelector('css selector');
     element.addEventListener('event type', eventHandler);
-
 ```
+
+1. Differnt type of events
 
 ### Important points -
 
 >1. What is the difference between event.target and event.currentTarget?
 [Read this](https://stackoverflow.com/questions/10086427/what-is-the-exact-difference-between-currenttarget-property-and-target-property)
+
+>2. What is the differnce between mouseover and mouseenter events? Watch video@19:00
+
+>3. What is the difference between keydown, keyup and keypress events?
+
+>4. [Reference for all the events](https://developer.mozilla.org/en-US/docs/Web/Events)
