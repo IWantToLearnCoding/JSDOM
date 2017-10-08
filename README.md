@@ -1,10 +1,8 @@
 # DOM crash course using vanilla JS
 
-Four videos series, THANK YOU! Traversy Media.
+Find, traverse, create and manipulate html DOM using only vanilla JS.
 
-# Video 1 - ELEMENT SELECTORS  
-
-https://www.youtube.com/watch?v=0ik6X4DJKCc
+# ELEMENT SELECTORS  
 
 1. getElementById
 2. getElementsByClassName
@@ -12,9 +10,7 @@ https://www.youtube.com/watch?v=0ik6X4DJKCc
 4. querySelector
 5. querySelectorAll
 
-# Video 2 - TRAVERSING THE DOM
-
-https://www.youtube.com/watch?v=mPd2aJXCZ2g
+# TRAVERSING THE DOM
 
 1. PARENT
 
