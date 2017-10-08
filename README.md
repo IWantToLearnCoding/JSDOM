@@ -17,19 +17,33 @@ https://www.youtube.com/watch?v=0ik6X4DJKCc
 https://www.youtube.com/watch?v=mPd2aJXCZ2g
 
 1. PARENT
+
     a. parentNode
+
     b. parentElement
+
 2. CHILD
+
     a. childNodes
+
     b. children
+
     c.firstChild
+
     d. firstElementChild
+
     e. lastChild    
+
     f. lastChildElement
+
 3. SIBLING
+
     a. nextSibling
+
     b. nextElementSibling
+
     c. previousSibling
+
     d. previousElementSibling
 
 Important point -
