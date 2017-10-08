@@ -3,7 +3,7 @@
 Find, traverse, create and manipulate html DOM using only vanilla JS.
 
 ***
-# ELEMENT SELECTORS  
+## ELEMENT SELECTORS  
 
 1. getElementById
 2. getElementsByClassName
@@ -12,7 +12,7 @@ Find, traverse, create and manipulate html DOM using only vanilla JS.
 5. querySelectorAll
 
 ***
-# TRAVERSING THE DOM
+## TRAVERSING THE DOM
 
 1. PARENT
 
@@ -63,7 +63,7 @@ Find, traverse, create and manipulate html DOM using only vanilla JS.
 > 3. Difference between firstChild and firstElementChild?
 
 ***
-# EVENTS
+## EVENTS
 
 1. Adding an eventListener/handler
 
@@ -79,3 +79,6 @@ Find, traverse, create and manipulate html DOM using only vanilla JS.
 ```
 
 ### Important points -
+
+>1. What is the difference between event.target and event.currentTarget?
+> [Read this] (https://stackoverflow.com/questions/10086427/what-is-the-exact-difference-between-currenttarget-property-and-target-property)
