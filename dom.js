@@ -196,6 +196,12 @@ input.style.marginTop = '100px';
 input.addEventListener('keyup', inputEventHandler);
 
 
+var secondInputHandler = function (element, event) {
+    // console.log(this);
+    console.log(element);
+    console.log(event);
+}
+
 // focus and blur
 
 // cut and paste
